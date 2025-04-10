@@ -80,7 +80,9 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur v
    Dans le répertoire `frontend`, exécutez la commande suivante pour installer les dépendances Node.js :
 
    ```bash
-   npm install
+   npm install --legacy-peer-deps
+   npm install react-search-field@latest
+   npm install --force
    ```
 
 2. **Lancer le serveur de développement React**
